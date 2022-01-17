@@ -1,0 +1,23 @@
+
+.expense-item {
+    display: flex;
+    margin: 0 auto;
+    padding: 25px 30px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    background: #fafaf9;
+}
+
+.expense-item__description {
+    color: #a786df;
+}
+.expense-item__description span {
+    font-size: 12px;
+    color: seagreen;
+}
+
+.expense-item__price {
+    color: #0e172c;
+}
+
